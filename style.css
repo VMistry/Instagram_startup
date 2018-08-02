@@ -7,21 +7,16 @@ body {
 }
 
 .phoneImage {
-  width: 440px;
+  width: 430px;
   display: inline-block;
   text-align: center;
 }
 
 .signUpForm {
-  width: 350px;
-  display: inline-block;
-  text-align: center;
-  float: right;
-}
-
-.phoneImage img {
-  width: 400px;
-  margin-top: 40px;
+  /* width: 350px;
+  display: inline-block;*/
+  text-align: center; 
+  /* float: right; */
 }
 
 .imageHeader img {

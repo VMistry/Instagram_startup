@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Instagram</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main class="container">
-      <section class="phoneImage">
+      <div class="row">
+        <div class="col-sm-6 hidden-sm hidden-xs">
+          <img class="phoneImage" src="images/phonebase.png" alt="IPhone Image">
+        </div>
+        <div class="col-xs-6 col-sm-offset-3 col-md-offset-0 signUpForm" >
+          <header class="imageHeader">
+            <img src="images/logo.png" alt="InstagramImage">
+          </header>
+          <p class="signUpText">Sign up to see photos and videos from your friends</p>
+          <a class="button" href="#"><i class="fab fa-facebook-square"></i> Log in with Facebook</a>
+        </div>
+      </div>
+      <!-- <section class="phoneImage">
         <img src="images/phonebase.png" alt="IPhone Image">
       </section>
       <section class="signUpForm">
@@ -18,7 +32,7 @@
         <p class="signUpText">Sign up to see photos and videos from your friends</p>
         <a class="button" href="#"><i class="fab fa-facebook-square"></i> Log in with Facebook</a>
 
-      </section>
+      </section> -->
     </main>
   </body>
 </html>
